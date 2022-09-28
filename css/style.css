@@ -5,3 +5,40 @@
     font-family: 'Lato', sans-serif;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+/* contenitore principale */
+main{
+    background-color: black;
+}
+
+
+/* container immagini */
+.immagini {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.imm{
+    position: relative;
+    max-width: calc(90vw/7);
+    
+}
+
+/* riquadro nome e microfono */
+.mic{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    background-color: #edededd0;
+    position: absolute;
+    left: 0;
+    top: 6.3rem;
+}
+
