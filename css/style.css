@@ -18,20 +18,24 @@ main{
 /* container immagini */
 .immagini {
     display: flex;
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     padding-top: 5rem;
     flex-wrap: wrap;
+    
 }
 
 .imm{
     position: relative;
-    max-width: calc(90vw/7);
+    width: 185px;
+    height: 123px;
+    display: inline-flexbox;
+   
     
 }
 
 /* riquadro nome e microfono */
-.mic{
+/* .mic{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,5 +44,5 @@ main{
     position: absolute;
     left: 0;
     top: 6.3rem;
-}
+} */
 
